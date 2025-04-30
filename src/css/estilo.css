@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header, main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+   
+    height: 17.6rem;
+    width: 100%;
+    justify-content:center;
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 68%;
+}
+
+.cabecalho img{
+    width: 16.6rem;
+    height: 8.0rem;
+}
+
+.icones {
+    display: flex;
+    gap: 2.4rem;
+    height: 4.0rem;
+    width: 23.2rem;   
+}
+
+.icones img{
+    width: 4.0rem;
+    height: 4.0rem;
+    
+}   
+
+.icones button{
+    border: none;
+    background: none;
+    background-color: #fefdfd3e;
+    border-radius: 99.9rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.conteudo_principal {
+    gap: 4.0rem;
+    color: #FFFFFF;
+    display: flex;
+    margin-top: 8.0rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 68%;
+    
+}
+
+.fantasma img{
+    width: 57.4rem;
+    height: 42.38rem; 
+}
+
+.textos {
+    width: 50.2rem;
+    height: 41.5rem;
+    gap: 4.8rem;
+}
+
+
+.textos h5 {
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    width: 17.4rem;
+    height: 2.7rem;
+    text-transform: uppercase;
+    line-height: 2.724rem;
+    font-weight: 700;
+}
+
+
+.textos h1{
+    font-size: 6.4rem;
+    font-family: 'andada Pro',Arial, Helvetica, sans-serif;
+    height: 14.0rem;
+    width: 40.5rem;
+    line-height: 6.9rem;
+    text-transform: uppercase;
+    margin-top: 1.0rem; 
+    font-weight: 800;   
+}
+
+.textos p{
+
+    font-family: 'Archivo',Arial, Helvetica, sans-serif;
+    width: 48.8rem;
+    height: 10.8rem;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    margin-top: 3.0rem;
+    font-weight: 500;
+}
+
+.botoes{
+    display: flex;
+    width: 50.2rem;
+    height: 5.2rem;
+    gap: 3.5rem;
+    margin-top: 3.0rem;
+    align-items: center;
+
+}
+
+.botoes img{
+    width: 2.4rem;
+    height: 2.4rem;
+    border: none;
+    background: none;
+}
+
+.btnrosa{
+
+    display: flex;
+    align-items: center;
+    background: #F1A5B1;
+    width: 24.0rem;
+    height: 5.2rem;
+    padding-top: 1.4rem;
+    padding-right: 3.2rem;
+    padding-bottom: 1.4rem;
+    padding-left: 3.2rem;
+    border-radius: .4rem;
+    border: none;
+    gap: .8rem;
+    cursor: pointer;
+    font-weight: bold;
+    
+
+    text-transform: uppercase;
+    font-family: 'roboto',Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    color: black;
+    text-align: center;   
+}
+
+.btnt{
+    width: 23.0rem;
+    height: 5.2rem;
+    gap: .8rem;
+    padding-top: 1.4rem;
+    padding-right: 3.2rem;
+    padding-bottom: 1.4rem;
+    padding-left: 3.2rem;
+    border-radius: .4rem;
+    border-width: .2rem;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    font-family: 'roboto',Arial, Helvetica, sans-serif;
+    border-color: #F1A5B1;
+    font-size: 1.7rem;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 699px){
+    header{
+        padding: 2.4rem 2.4rem;
+        gap: 2.4rem;
+    }
+    .cabecalho{
+        width: 100%;
+        align-items: center;
+        justify-content: center;  
+    }
+
+    .icones{
+        display: none;
+    }
+
+    main{
+        padding: 2.4rem 2.4rem;
+        gap: 2.4rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .conteudo_principal{
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+        width: 32.7rem;
+        padding-top: 1.0rem;
+        padding-bottom: 6.4rem;
+        gap: 2.4rem;  
+        flex-direction: column-reverse;
+    }
+    .fantasma img{
+        margin-left: 6.0rem;
+        width: 25.0rem;
+        height: 18.45rem;
+    }
+    .textos {
+        height: 45.5rem;
+        width: 32.7rem;
+        gap: 3.2rem;
+    }
+    .textos h5 {
+        font-size: 1.6rem;
+        width: 13.9rem;
+        height: 2.2rem;
+        text-transform: uppercase;
+        line-height: 2.179rem;
+        font-weight: 700;
+
+    }
+
+    .textos h1{
+        font-size: 4.0rem;
+        height: 8.8rem;
+        width: 26.0rem;
+        line-height: 4.4rem;
+        text-transform: uppercase;
+        margin-top: 1.0rem; 
+        font-weight: 800;   
+    }
+
+    .textos p{
+        width: 32.7rem;
+        height: 10.8rem;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        margin-top: 3.0rem;
+        font-weight: 500;
+    }    
+
+
+    .botoes{
+        margin-top: 0rem;
+        width: 32.7rem;
+        gap: 3.2rem;
+        flex-direction: column;
+    }
+    .btnrosa{
+        justify-content: center;
+        align-items: center;
+        width: 32.7rem;
+    }
+    .btnt{
+        width: 32.7rem;
+    }
+
+}
+
+@media only screen and (min-width:699px) and (max-width: 1304px){
+   
+    header{
+    width: 100%;
+}
+
+header, main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 3.2rem;
+
+}
+.botoes img{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+main{
+    width: 100%;
+}
+
+.conteudo_principal{
+
+    justify-content: center;
+    align-items: center;
+    width: 76.8rem;
+    padding: 8.0rem 3.2rem;
+    gap: 2.4rem;
+    margin-bottom: 7.0rem;
+    flex-direction: column-reverse;
+}  
+
+.fantasma img{
+    width: 56.7rem;
+    height: 40.14rem;
+    margin-left:20.0rem; 
+}
+
+.textos {
+    width: 44.8rem;
+    height: 45.2rem;
+    max-width: 44.8rem;
+    gap: 4.8rem;
+
+}
+
+.textos h5 {
+    font-size: 1.8rem;
+    width: 16.0rem;
+    height: 2.9rem;
+
+}
+
+.textos h1{
+    font-size: 4.0rem;
+    width: 25.2rem;
+    height: 8.8rem;
+    line-height: 4.4rem;
+
+}
+.textos p{
+    margin-top: 5.0rem;
+    margin-bottom: 5.0rem;
+    width: 44.8rem;
+    height: 4.8rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: center;
+}
+.botoes{
+    width: 44.8rem;
+    height: 13.6rem;
+    gap: 3.2rem;
+    flex-direction: column;
+}
+
+.btnrosa{
+    width: 44.8rem;
+    height: 5.2rem;
+    justify-content: center;
+}
+
+.btnt{
+    width: 44.8rem;
+    height: 5.2rem;
+    justify-content: center;
+}
+
+}
+
+
